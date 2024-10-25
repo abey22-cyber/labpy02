@@ -113,11 +113,13 @@ gaji_bersih=gaji_pokok−potongan
 
 ### GAJI DI BAWAH UMR
 
-![WhatsApp Image 2024-10-25 at 15 18 35_fde8077b](https://github.com/user-attachments/assets/1a68e75b-8743-461e-831b-ca0bc138a761)
+![image](https://github.com/user-attachments/assets/010e70b8-3482-40b1-8bea-bcaa1d566b92)
+
 
 ## BERIKUT SCREENSHOT VISUALCODE
 
-<img width="960" alt="Screenshot 2024-10-25 142936" src="https://github.com/user-attachments/assets/904a4385-f572-4048-8622-d35b49832384">
+![image](https://github.com/user-attachments/assets/e1c5cdab-f081-4208-89a1-e79eac4ff526)
+
 
 ## LATIHAN 3
 ### PENGGUNAAN KONDISI OR
