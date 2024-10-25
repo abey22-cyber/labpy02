@@ -1,6 +1,6 @@
 # BIODATA
-# MUHAMAD WAFA MUFIDA ZULFI
-# 312410334
+# MUHAMAD SOFYAN ILYAS
+# 312410323
 # TI.24.A4
 # BAHASA PEMOGRAMAN
 
@@ -55,7 +55,8 @@ Output:
 
 ## BERIKUT SCREENSHOT VISUALCODE
 
-<img width="960" alt="Screenshot 2024-10-25 142332" src="https://github.com/user-attachments/assets/8f6abfb8-ee26-4af4-a322-a7f60e2f69ef">
+![image](https://github.com/user-attachments/assets/f569697c-cc64-42b3-aefe-4f31cc4d55db)
+
 
 ## LATIHAN 2
 ### MEMBUAT PROGRAM MENAMPILKAN GAJI KARYAWAN
