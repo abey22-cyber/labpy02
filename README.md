@@ -202,3 +202,190 @@ Menggunakan print() untuk menampilkan hasil kepada pengguna, termasuk nama, gaji
 
 ![image](https://github.com/user-attachments/assets/27c69565-aafc-42ab-a25b-a0db679af7af)
 
+
+## Latihan 3
+## Pemesanan tiket bioskop
+
+Kasus 1: Program Pemesanan Tiket Bioskop
+Buat program yang menghitung harga tiket bioskop. Tiket reguler berharga Rp50.000,
+sedangkan tiket VIP berharga Rp100.000. Jika user memiliki kartu member, mereka
+mendapatkan diskon 20% dari harga tiket. Program ini harus meminta tipe tiket dan status
+member dari user, lalu menghitung total harga yang harus dibayar.
+
+Petunjuk:
+
+    ● Gunakan if else dan operator ternary.
+    
+python
+harga_reguler = 50000
+harga_vip = 100000
+
+tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
+status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
+
+ Menghitung total harga
+if tipe_tiket == "reguler":
+    total_harga = harga_reguler
+elif tipe_tiket == "vip":
+    total_harga = harga_vip
+else:
+    print("Tipe tiket tidak valid.")
+    exit()
+
+ Menghitung diskon jika pengguna memiliki kartu member
+
+
+if status_member == "ya":
+        total_harga *= 0.8  # Diskon 20%
+    
+        print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
+elif status_member == "tidak":
+            total_harga
+            print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
+else:
+    print("Harga tidak dapat dihitung.")
+ `
+Program ini akan menentukan harga pesanan tiket bioskop, Yang reguler/Vip, dan jika Vip harga 100.000, dan jika reguler 80.0000, dan jika memiliki kartu member pelanggan tersebut akan mendapatkan diskon 20%
+
+python
+harga_reguler = 50000
+harga_vip = 100000
+`
+variable ini menentukan harga tiket bioskop
+
+python
+tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
+status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
+`
+memasukan inputan sesuai Output Program (Reguler/Vip) di variable (Tipe_Tiket), dan Memasukan inputan yang output tersebut Bertanya memiliki kartu member atau tidak.
+
+python
+if tipe_tiket == "reguler":
+    total_harga = harga_reguler
+elif tipe_tiket == "vip":
+    total_harga = harga_vip
+else:
+    print("Tipe tiket tidak valid.")
+    exit()
+`
+Jika tipe tiket reguler total harga proses ke Harga reguler, dan jika tiket vip Total harga proses keharga vip
+
+dan jika Selain memasukan inputan reguler/vip Output yang keluar "Tipe tiket tidak valid" dan berproses ke fungsi exit() yang artinya program dihentikan.
+
+python
+if status_member == "ya":
+        total_harga *= 0.8  # Diskon 20%
+    
+        print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
+elif status_member == "tidak":
+            total_harga
+            print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
+else:
+    print("Harga tidak dapat dihitung.")
+`
+desision ini menentukan mempunyai kartu member atau tidak, Jika Inputan status member menjawab "ya", maka total harga akan di kalikan dengan operator * 0,8 yang disebut diskon 20%
+
+dan jika inputan status member "tidak", maka total harga normal
+
+jika menginputkan selain (ya/tidak) output yang keluar "Harga tidak dapat dihitung"
+
+Dan ini hasil program tersebut:
+
+
+![Screenshot 2024-10-26 193806](https://github.com/user-attachments/assets/774c9aae-c360-47c0-b1a6-f3632ebd9a1d)
+
+
+Eksekusi dari program tersebut:
+
+![Screenshot 2024-10-26 193938](https://github.com/user-attachments/assets/e8bd719d-2257-4207-b775-91fc60ea31c9)
+
+
+Dan flowchartnya:
+
+![Screenshot 2024-10-26 200214](https://github.com/user-attachments/assets/19f37011-2198-4889-8b5c-01199022dc09)
+
+## Kalkulator sederhana 
+
+ # Kasus 2: Program Kalkulator Sederhana
+
+Buat program kalkulator yang menerima dua angka dan satu operator aritmatika dari
+pengguna (penjumlahan, pengurangan, perkalian, atau pembagian). Program akan
+menghitung hasil sesuai dengan operator yang dipilih.
+
+# Petunjuk:
+
+    ● Gunakan if elif else untuk menentukan operasi aritmatika.
+
+    angka1 = float(input("Masukkan angka pertama: "))
+operator = input("Masukkan operator (+, -, *, /): ")
+angka2 = float(input("Masukkan angka kedua: "))
+
+# Menghitung hasil berdasarkan operator
+
+python
+if operator == '+':
+    hasil = angka1 + angka2
+    print(f"Hasil penjumlahan: {hasil}")
+elif operator == '-':
+    hasil = angka1 - angka2
+    print(f"Hasil pengurangan: {hasil}")
+elif operator == '*':
+    hasil = angka1 * angka2
+    print(f"Hasil perkalian: {hasil}")
+elif operator == '/':
+    if angka2 != 0:
+        hasil = angka1 / angka2
+        print(f"Hasil pembagian: {hasil}")
+    else:
+        print("Error: Pembagian dengan nol tidak diperbolehkan.")
+
+else:
+    print("Error: Operator tidak valid. Silakan gunakan +, -, *, atau /.")
+`
+Program kalkulator sederhana dalam Python adalah proyek yang baik untuk pemula dan programmer tingkat lanjut. Program ini memungkinkan pengguna untuk melakukan operasi matematika seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+
+python
+
+angka1 = float(input("Masukkan angka pertama: "))
+operator = input("Masukkan operator (+, -, *, /): ")
+angka2 = float(input("Masukkan angka kedua: "))
+
+`
+fungsi yang digunakan dalam inputan ini menggunakan float mengubah nilai menjadi angka floating point, yaitu angka desimal atau pecahan, dan variable operator yang menginputkan suatu operator fungsi berupa (+, -, *, /) yang artinya pertambahan, perkurang, perkali, pembagian.
+
+python
+if operator == '+':
+    hasil = angka1 + angka2
+    print(f"Hasil penjumlahan: {hasil}")
+`
+Jika operator (+), maka hasil tersbur inputan variable angka1 ditambahkan angka2, dan Output akan mengeluarkan hasil program tersebut, Hingga seterusnya dengan (*) perkalian, dan (-) perkurangan
+
+python
+elif operator == '/':
+    if angka2 != 0:
+        hasil = angka1 / angka2
+        print(f"Hasil pembagian: {hasil}")
+    else:
+        print("Error: Pembagian dengan nol tidak diperbolehkan.")
+`
+Jika oprator (/), maka Inputan Variable angka1 dibagi angka2, dan dicetak semestinya, untuk desision (angka2 !=0:) tidak diperkenankan oleh program, karna output yang keluar "Error: Pembagian dengan nol tidak diperbolehkan"
+
+python
+else:
+    print("Error: Operator tidak valid. Silakan gunakan +, -, *, atau /.")
+`
+saya memasukan desision else ini Karna jika menjawab selain fungsi operator ini Output yang keluar "Error: Operator tidak valid. Silakan gunakan +, -, *, atau /."
+
+dan ini hasil program tersebut:
+
+![Screenshot 2024-10-26 203825](https://github.com/user-attachments/assets/1f2cbc43-4e37-4403-ac35-c1c127ba543b)
+
+Eksekusi program tersebut:
+
+![Screenshot 2024-10-26 201617](https://github.com/user-attachments/assets/034d2078-f2ea-4879-946e-885b00484e29)
+
+dan flowchartnya
+
+
+![Screenshot 2024-10-26 204442](https://github.com/user-attachments/assets/94b3f701-54fe-4e56-bf46-2354363fcfc2)
+
