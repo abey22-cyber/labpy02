@@ -244,19 +244,19 @@ elif status_member == "tidak":
             print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
 else:
     print("Harga tidak dapat dihitung.")
- `
+ ````
 Program ini akan menentukan harga pesanan tiket bioskop, Yang reguler/Vip, dan jika Vip harga 100.000, dan jika reguler 80.0000, dan jika memiliki kartu member pelanggan tersebut akan mendapatkan diskon 20%
 
 python
 harga_reguler = 50000
 harga_vip = 100000
-`
+````
 variable ini menentukan harga tiket bioskop
 
 python
 tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
 status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
-`
+````
 memasukan inputan sesuai Output Program (Reguler/Vip) di variable (Tipe_Tiket), dan Memasukan inputan yang output tersebut Bertanya memiliki kartu member atau tidak.
 
 python
@@ -267,7 +267,7 @@ elif tipe_tiket == "vip":
 else:
     print("Tipe tiket tidak valid.")
     exit()
-`
+````
 Jika tipe tiket reguler total harga proses ke Harga reguler, dan jika tiket vip Total harga proses keharga vip
 
 dan jika Selain memasukan inputan reguler/vip Output yang keluar "Tipe tiket tidak valid" dan berproses ke fungsi exit() yang artinya program dihentikan.
@@ -282,7 +282,7 @@ elif status_member == "tidak":
             print(f"total harga yang harua dibayar: Rp{total_harga:.2f}")
 else:
     print("Harga tidak dapat dihitung.")
-`
+````
 desision ini menentukan mempunyai kartu member atau tidak, Jika Inputan status member menjawab "ya", maka total harga akan di kalikan dengan operator * 0,8 yang disebut diskon 20%
 
 dan jika inputan status member "tidak", maka total harga normal
@@ -341,7 +341,7 @@ elif operator == '/':
 
 else:
     print("Error: Operator tidak valid. Silakan gunakan +, -, *, atau /.")
-`
+````
 Program kalkulator sederhana dalam Python adalah proyek yang baik untuk pemula dan programmer tingkat lanjut. Program ini memungkinkan pengguna untuk melakukan operasi matematika seperti penjumlahan, pengurangan, perkalian, dan pembagian.
 
 python
@@ -350,14 +350,14 @@ angka1 = float(input("Masukkan angka pertama: "))
 operator = input("Masukkan operator (+, -, *, /): ")
 angka2 = float(input("Masukkan angka kedua: "))
 
-`
+````
 fungsi yang digunakan dalam inputan ini menggunakan float mengubah nilai menjadi angka floating point, yaitu angka desimal atau pecahan, dan variable operator yang menginputkan suatu operator fungsi berupa (+, -, *, /) yang artinya pertambahan, perkurang, perkali, pembagian.
 
 python
 if operator == '+':
     hasil = angka1 + angka2
     print(f"Hasil penjumlahan: {hasil}")
-`
+````
 Jika operator (+), maka hasil tersbur inputan variable angka1 ditambahkan angka2, dan Output akan mengeluarkan hasil program tersebut, Hingga seterusnya dengan (*) perkalian, dan (-) perkurangan
 
 python
@@ -367,13 +367,13 @@ elif operator == '/':
         print(f"Hasil pembagian: {hasil}")
     else:
         print("Error: Pembagian dengan nol tidak diperbolehkan.")
-`
+````
 Jika oprator (/), maka Inputan Variable angka1 dibagi angka2, dan dicetak semestinya, untuk desision (angka2 !=0:) tidak diperkenankan oleh program, karna output yang keluar "Error: Pembagian dengan nol tidak diperbolehkan"
 
 python
 else:
     print("Error: Operator tidak valid. Silakan gunakan +, -, *, atau /.")
-`
+````
 saya memasukan desision else ini Karna jika menjawab selain fungsi operator ini Output yang keluar "Error: Operator tidak valid. Silakan gunakan +, -, *, atau /."
 
 dan ini hasil program tersebut:
