@@ -164,12 +164,12 @@ Jika gaji lebih dari 5.000.000 atau pemohon memiliki rumah, mereka dianggap laya
 
 c. Logika dalam Pendidikan Dalam konteks pendidikan, kita dapat menggunakan OR untuk mengevaluasi nilai siswa:
 
-PYHTON
+```PYHTON
 if a + b == c or b + c == a or c + a == b:
     print("BENAR")
 else:
     print("SALAH")
-
+```
 
 Program ini memeriksa apakah jumlah dua bilangan sama dengan bilangan ketiga. Jika salah satu kondisi terpenuhi, outputnya adalah "BENAR".
 
@@ -231,10 +231,10 @@ elif tipe_tiket == "vip":
 else:
     print("Tipe tiket tidak valid.")
     exit()
-
+```
  Menghitung diskon jika pengguna memiliki kartu member
 
-
+```
 if status_member == "ya":
         total_harga *= 0.8  # Diskon 20%
     
@@ -247,19 +247,19 @@ else:
  ````
 Program ini akan menentukan harga pesanan tiket bioskop, Yang reguler/Vip, dan jika Vip harga 100.000, dan jika reguler 80.0000, dan jika memiliki kartu member pelanggan tersebut akan mendapatkan diskon 20%
 
-python
+```python
 harga_reguler = 50000
 harga_vip = 100000
 ````
 variable ini menentukan harga tiket bioskop
 
-python
+```python
 tipe_tiket = (input("Masukkan tipe tiket (reguler/VIP): "))
 status_member = (input("Apakah Anda memiliki kartu member? (ya/tidak): "))
 ````
 memasukan inputan sesuai Output Program (Reguler/Vip) di variable (Tipe_Tiket), dan Memasukan inputan yang output tersebut Bertanya memiliki kartu member atau tidak.
 
-python
+```python
 if tipe_tiket == "reguler":
     total_harga = harga_reguler
 elif tipe_tiket == "vip":
@@ -272,7 +272,7 @@ Jika tipe tiket reguler total harga proses ke Harga reguler, dan jika tiket vip 
 
 dan jika Selain memasukan inputan reguler/vip Output yang keluar "Tipe tiket tidak valid" dan berproses ke fungsi exit() yang artinya program dihentikan.
 
-python
+```python
 if status_member == "ya":
         total_harga *= 0.8  # Diskon 20%
     
@@ -322,7 +322,7 @@ angka2 = float(input("Masukkan angka kedua: "))
 
 # Menghitung hasil berdasarkan operator
 
-python
+```python
 if operator == '+':
     hasil = angka1 + angka2
     print(f"Hasil penjumlahan: {hasil}")
@@ -344,7 +344,7 @@ else:
 ````
 Program kalkulator sederhana dalam Python adalah proyek yang baik untuk pemula dan programmer tingkat lanjut. Program ini memungkinkan pengguna untuk melakukan operasi matematika seperti penjumlahan, pengurangan, perkalian, dan pembagian.
 
-python
+```python
 
 angka1 = float(input("Masukkan angka pertama: "))
 operator = input("Masukkan operator (+, -, *, /): ")
@@ -353,27 +353,27 @@ angka2 = float(input("Masukkan angka kedua: "))
 ````
 fungsi yang digunakan dalam inputan ini menggunakan float mengubah nilai menjadi angka floating point, yaitu angka desimal atau pecahan, dan variable operator yang menginputkan suatu operator fungsi berupa (+, -, *, /) yang artinya pertambahan, perkurang, perkali, pembagian.
 
-python
+```python
 if operator == '+':
     hasil = angka1 + angka2
     print(f"Hasil penjumlahan: {hasil}")
-````
+```
 Jika operator (+), maka hasil tersbur inputan variable angka1 ditambahkan angka2, dan Output akan mengeluarkan hasil program tersebut, Hingga seterusnya dengan (*) perkalian, dan (-) perkurangan
 
-python
+```python
 elif operator == '/':
     if angka2 != 0:
         hasil = angka1 / angka2
         print(f"Hasil pembagian: {hasil}")
     else:
         print("Error: Pembagian dengan nol tidak diperbolehkan.")
-````
+```
 Jika oprator (/), maka Inputan Variable angka1 dibagi angka2, dan dicetak semestinya, untuk desision (angka2 !=0:) tidak diperkenankan oleh program, karna output yang keluar "Error: Pembagian dengan nol tidak diperbolehkan"
 
-python
+```python
 else:
     print("Error: Operator tidak valid. Silakan gunakan +, -, *, atau /.")
-````
+```
 saya memasukan desision else ini Karna jika menjawab selain fungsi operator ini Output yang keluar "Error: Operator tidak valid. Silakan gunakan +, -, *, atau /."
 
 dan ini hasil program tersebut:
