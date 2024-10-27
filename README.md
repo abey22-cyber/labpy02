@@ -292,12 +292,13 @@ jika menginputkan selain (ya/tidak) output yang keluar "Harga tidak dapat dihitu
 Dan ini hasil program tersebut:
 
 
-![Screenshot 2024-10-26 193806](https://github.com/user-attachments/assets/774c9aae-c360-47c0-b1a6-f3632ebd9a1d)
+![image](https://github.com/user-attachments/assets/77402493-13dd-4e4b-bd3a-d04017c5ff3a)
+
 
 
 Eksekusi dari program tersebut:
 
-![Screenshot 2024-10-26 193938](https://github.com/user-attachments/assets/e8bd719d-2257-4207-b775-91fc60ea31c9)
+![image](https://github.com/user-attachments/assets/4bdd4875-acd9-445e-b1ed-835bdb3dfb8c)
 
 
 Dan flowchartnya:
@@ -378,11 +379,12 @@ saya memasukan desision else ini Karna jika menjawab selain fungsi operator ini 
 
 dan ini hasil program tersebut:
 
-![Screenshot 2024-10-26 203825](https://github.com/user-attachments/assets/1f2cbc43-4e37-4403-ac35-c1c127ba543b)
+![image](https://github.com/user-attachments/assets/42e43cb8-8da6-4a41-a92e-72a00a6d2576)
+
 
 Eksekusi program tersebut:
 
-![Screenshot 2024-10-26 201617](https://github.com/user-attachments/assets/034d2078-f2ea-4879-946e-885b00484e29)
+![image](https://github.com/user-attachments/assets/59a89243-633a-42fc-ad66-8eae363d3d19)
 
 dan flowchartnya
 
