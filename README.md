@@ -133,25 +133,25 @@ Operator OR adalah operator logika yang digunakan untuk mengevaluasi dua atau le
 2. Sintaksis
 Penggunaan dasar operator OR dalam Python adalah sebagai berikut:
 
-PYTHON
+```PYTHON
 if kondisi1 or kondisi2:
     # lakukan sesuatu
-
+```
 3. Contoh Penggunaan
    
 a. Pemeriksaan Sederhana Misalnya, kita ingin mengecek apakah sebuah angka berada di luar rentang tertentu:
 
-PYHTON
+```PYHTON
 angka = 7
 if angka < 5 or angka > 10:
     print("Angka tidak dalam rentang 5 hingga 10")
 else:
     print("Angka dalam rentang 5 hingga 10")
-
+```
 
 b. Kelayakan dalam Konteks Bisnis Dalam bisnis, kita mungkin perlu memverifikasi kelayakan berdasarkan beberapa syarat:
 
-PYTHON
+```PYTHON
 gaji = 2500000
 memiliki_rumah = True
 
@@ -159,7 +159,7 @@ if gaji > 5000000 or memiliki_rumah:
     print("Kelayakan pinjaman terverifikasi")
 else:
     print("Kelayakan pinjaman tidak terpenuhi")
-
+```
 Jika gaji lebih dari 5.000.000 atau pemohon memiliki rumah, mereka dianggap layak untuk pinjaman.
 
 c. Logika dalam Pendidikan Dalam konteks pendidikan, kita dapat menggunakan OR untuk mengevaluasi nilai siswa:
@@ -216,7 +216,7 @@ Petunjuk:
 
     ● Gunakan if else dan operator ternary.
     
-python
+```python
 harga_reguler = 50000
 harga_vip = 100000
 
